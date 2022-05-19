@@ -1,0 +1,76 @@
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 34px;
+    width: 80%;
+}
+.desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    margin-right: 5vw;
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+.otp div{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.07)), linear-gradient(180deg, rgba(165, 175, 196, 0.0001) 0%, rgba(109, 123, 152, 0.0001) 100%);
+    backdrop-filter: blur(81.5485px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    margin: 5vw;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otp div input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+.otp {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.continue {
+    background: linear-gradient(130.97deg, #266ED7 6.68%, #4D8AEB 99.25%);
+    border-radius: 8px;
+    padding: 2vh;
+    margin-bottom: .5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not_recvd {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    /* identical to box height, or 125% */
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    text-align: center;
+}
